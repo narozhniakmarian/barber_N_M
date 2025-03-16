@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*  */
+.header-container {
+    display: flex;
+}
+
+.sidebar {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 155px;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar-logo img {
+    width: 80px;
+    transform: rotate(-30deg);
+}
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-links li {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-praimary {
+    transition: fill 0.3s ease;
+}
+
+svg:hover .icon-praimary {
+    fill: #FF6C00;
+}
+
+.sidebar-links a {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: #303030;
+    transition: color 0.3s ease;
+}
+
+.sidebar-links .instagram {
+    color: #303030;
+    font-weight: bold;
+}
+
+.sidebar-links a:hover {
+    color: #FF6C00;
+}
+
+.dividerr {
+    width: 1px;
+    height: 50px;
+    background: rgba(157, 164, 189, 0.6);
+    display: block;
+    margin-top: 20px;
+}
+
+.divider {
+    width: 1px;
+    height: 50px;
+    background: rgba(157, 164, 189, 0.6);
+    display: flex;
+
+    padding: 10px 0;
+    transform: rotate(90deg);
+
+}
+
+.header-wrapper {
+    background: url(../images/Slider3.jpg)no-repeat center center/cover;
+    max-width: 1070px;
+    width: 100%;
+    padding: 40px 20px 40px 100px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 12px 0;
+}
+
+.tot-nav-link a {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.tot-nav-link a:hover {
+    color: #FF6C00;
+}
+
+.contacts {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+
+.contacts a {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.contacts a:hover {
+    color: #0094fd;
+}
+
+.hed-btn {
+    display: block;
+    padding: 12px 20px;
+    background: rgba(25, 28, 38, 0.2);
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.hed-btn:hover {
+    background: #FF6C00;
+}
+
+
+.head-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.head-content {
+    width: 444px;
+    height: 200px;
+    margin-top: 184px;
+}
+
+.head-title {
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 1px;
+    height: 50px;
+    background: rgba(157, 164, 189, 0.6);
+    display: block;
+    margin-left: 26px;
+    padding: 10px 0;
+    margin-top: 0;
+    transform: rotate(90deg);
+
+}
+
+.hed-span-desc {
+    width: 172px;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+    margin-left: 40px;
+}
+
+.head-line {
+    display: flex;
+    align-items: center;
+}
+
+.head-description {
+    width: 358px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+}
+
+.scrol-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.shoet-line {}
+
+.lonlin {}
+
+.lilin {}
+
+.shorlin {}
+
+.front-back {
+    display: flex;
+    gap: 50px;
+}
+
+.front a {
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.back a {
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.white-line {}
