@@ -1,0 +1,65 @@
+heade.header>.container>.header-container>.asidnav>ul.asid-menu>li.soc-link*3^^.header-wrapper>.top-nav>nav.navbar>ul.nav-menu>li.tot-nav-link*4>a^^asress>ul.contacts>li.contact>a+btn^^^^.head-page>.head-content>h1.head-title>span+span^p.head-description+.scrol-page>span*3+ul.front-back>li.front+li.back
+  <heade class="header">
+    <div class="container">
+      <div class="header-container">
+        <div class="asidnav">
+          <ul class="asid-menu">
+            <li class="soc-link"></li>
+            <li class="soc-link"></li>
+            <li class="soc-link"></li>
+          </ul>
+        </div>
+        <div class="header-wrapper">
+          <div class="top-nav">
+            <nav class="navbar">
+              <ul class="nav-menu">
+                <li class="tot-nav-link"><a href=""></a></li>
+                <li class="tot-nav-link"><a href=""></a></li>
+                <li class="tot-nav-link"><a href=""></a></li>
+                <li class="tot-nav-link"><a href=""></a></li>
+              </ul>
+              <asress>
+                <ul class="contacts">
+                  <li class="contact"><a href=""></a><button></button></li>
+                </ul>
+              </asress>
+            </nav>
+            <div class="head-page">
+              <div class="head-content">
+                <h1 class="head-title"><span></span><span></span></h1>
+                <p class="head-description"></p>
+                <div class="scrol-page">
+                  <span></span><span></span><span></span>
+                  <ul class="front-back">
+                    <li class="front"></li>
+                    <li class="back"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </heade>
+
+  .container>.container-about>(.barber-job-pictere>ima*2)+(.about-text-box>.about-title-box>(.subtit+h2.sec-title)+p.subtitle+p.text+btn.hed-btn)
+ <section class="about">
+        <div class="container">
+          <div class="container-about">
+            <div class="barber-job-pictere">
+              <ima></ima>
+              <ima></ima>
+            </div>
+            <div class="about-text-box">
+              <div class="about-title-box">
+                <div class="subtit"></div>
+                <h2 class="sec-title"></h2>
+                <p class="subtitle"></p>
+                <p class="text"></p>
+                <button class="hed-btn"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
