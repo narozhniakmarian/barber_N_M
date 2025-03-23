@@ -569,21 +569,43 @@ sup {
     gap: 10px;
 }
 
-.soc {
+.soc-icon {
+    display: flex;
+    gap: 10px;
+}
 
-    background-color: #ffffff;
-    padding: 12px;
+.soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fcfcfc;
     border-radius: 50%;
-    fill: #303030;
-    transition: 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.soc-svg use {
+    fill: currentColor;
+}
+
+.soc-svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(212, 34, 34);
+    transition: fill 0.3s ease;
 }
 
 .soc:hover {
-    fill: #FF6C00;
-    background-color: #FF6C00;
+    background-color: #b9dcef;
+    transform: scale(1.1);
+    color: #ffdd57;
 }
 
+.soc:hover .soc-svg {
+    fill: #13851b;
 
+}
 
 /* portfolio */
 .portfolio {
