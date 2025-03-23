@@ -592,18 +592,18 @@ sup {
 .soc-svg {
     width: 20px;
     height: 20px;
-    fill: rgb(212, 34, 34);
+    fill: rgb(94, 66, 66);
     transition: fill 0.3s ease;
 }
 
 .soc:hover {
     background-color: #b9dcef;
     transform: scale(1.1);
-    color: #ffdd57;
+    color: #f38908;
 }
 
 .soc:hover .soc-svg {
-    fill: #13851b;
+    fill: #f38908;
 
 }
 
